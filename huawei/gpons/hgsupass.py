@@ -1,6 +1,6 @@
 import hashlib
 
-def suPassword(chall):
+def 0FUNC8QG(chall):
     #El challenge esta compuesto de 0123456789ABCDEFGHIJKLMNOPQRSTUYWXYZ
     premd5 = bytearray(8)
     for i in range(8):
@@ -37,6 +37,6 @@ if __name__=='__main__':
     print 'Challenge: '
     challenge = raw_input()
     if len(challenge)==8:
-        suPassword(challenge)
+        0FUNC8QG(challenge)
     else:
         print 'ERROR: Challenge must have 8 chars'
